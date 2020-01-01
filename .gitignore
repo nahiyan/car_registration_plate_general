@@ -5,5 +5,3 @@ __pycache__
 activate
 database/*.csv
 *.ipynb
-processed_images/*.jpg
-raw_images/*.jpg

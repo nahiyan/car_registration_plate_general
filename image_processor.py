@@ -14,7 +14,6 @@ from PIL import Image
 
 import cv2
 import imutils
-from helpers import get_last_processed_image_id, get_new_image_id, set_last_processed_image_id, file_exists
 
 def wait():
     cv2.waitKey(0)
@@ -107,7 +106,7 @@ def process_image(image_name):
     try:
       image = Image.open(filename)
     except:
-      print(image_name + " not an image. Skipping...")
+      return image_name + " not an image. Skipping..."
 
     # the array based representation of the image will be used later in order to prepare the
     # result image with boxes and labels on it.
@@ -138,25 +137,6 @@ def main():
 
     for image_name in os.listdir("raw_images"):
       print(process_image(image_name))
-
-
-
-    # # Last processed image id, 0 if none exists
-
-    # last_processed_image_id = get_last_processed_image_id()
-
-    # while(True):
-    #     # Last created image id, 0 if none exists
-
-    #     newest_created_image_id = get_new_image_id() - 1
-
-    #     if (newest_created_image_id > last_processed_image_id):
-    #         if file_exists("raw_images/%s.jpg" % (last_processed_image_id + 1)):
-    #             print(process_image(last_processed_image_id + 1))
-
-    #         last_processed_image_id += 1
-
-    #         set_last_processed_image_id(last_processed_image_id)
 
 
 main()
