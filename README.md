@@ -6,6 +6,7 @@ Install packages using `pip install -r requirements.txt`.
 
 # Usage
 
-There are 2 directories: `raw_images` and `processed_images`.
-Images which you want to process should be kept in `raw_images` directory.
-To process them, run `python image_processor.py` and it should automatically detect the images in `raw_images` directory and store the processed images in `processed_images` directory.
+- There are 2 directories: `raw_images` and `processed_images`.
+
+- Images which you want to process should be kept in `raw_images` directory.
+- To process them, run `python image_processor.py`, and it should automatically detect the images in `raw_images` directory and store the processed images in `processed_images` directory.
