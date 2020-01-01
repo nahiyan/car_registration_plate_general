@@ -1,0 +1,11 @@
+tensorflow==1.14
+numpy==1.16.4
+matplotlib==3.0.1
+opencv-python
+imutils
+protobuf
+pandas
+lxml
+pillow
+Cython
+pycocotools
