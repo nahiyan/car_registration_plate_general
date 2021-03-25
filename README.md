@@ -1,10 +1,17 @@
-# Install
+# Car Registration Plate Detection
+
+# Contributors
+
+- Nahiyan Alamgir: Development and planning
+- Momena Akhter Shukhi: Testing and planning
+
+## Install
 
 It's best to create a virtual environment in this folder. Use python3 as the virtual environment's python.
 
 Install packages using `pip install -r requirements.txt`.
 
-# Usage
+## Usage
 
 - There are 2 directories: `raw_images` and `processed_images`.
 
