@@ -3,7 +3,7 @@
 # Contributors
 
 - Nahiyan Alamgir: Development and planning
-- Momena Akhter Shukhi: Testing and planning
+- Momena Akhter Shukhi: Testing, planning, and documentation.
 
 ## Install
 
