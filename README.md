@@ -1,10 +1,5 @@
 # Car Registration Plate Detection
 
-# Contributors
-
-- Nahiyan Alamgir: Development and planning
-- Momena Akhter Shukhi: Testing, planning, and documentation.
-
 ## Install
 
 It's best to create a virtual environment in this folder. Use python3 as the virtual environment's python.
